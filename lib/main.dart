@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:my_cars/services/auth/auth_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await AuthService.firebase().initialize();
   runApp(const MyApp());
 }
 
@@ -13,7 +16,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
