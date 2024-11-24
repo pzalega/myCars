@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "13144187455",
+    "project_id": "pagosoftware-my-cars",
+    "storage_bucket": "pagosoftware-my-cars.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13144187455:android:288a8983fc900c0ba4ce8a",
+        "android_client_info": {
+          "package_name": "pl.pagosoftware.my_cars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6xSumfA-vFDunku6vUR9hJ9gMaLxdaTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
